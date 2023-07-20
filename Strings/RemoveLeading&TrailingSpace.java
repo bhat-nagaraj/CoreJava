@@ -4,10 +4,10 @@
 public class Main
 {
 	public static void main(String[] args) {
-	    String st="  mnop qr       1";
+	    String st="  mnop qr1     ";
 	    String ans = st.strip();
 	    String res=st.trim();
-	    System.out.println(ans);
+	    System.out.println(ans.length());
 	    System.out.println(res);
 	}
 }
